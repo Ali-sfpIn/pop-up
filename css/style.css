@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(
+    90deg,
+    hsla(179, 83%, 64%, 1) 0%,
+    hsla(338, 75%, 64%, 1) 50%,
+    hsla(14, 92%, 86%, 1) 100%
+  );
+}
+
+.container {
+  position: relative;
+}
+
+.button {
+  margin-top: 25%;
+  border-radius: 20px;
+  border: none;
+}
+
+.sub-btn:hover {
+  background-color: #2ecc71;
+  color: white;
+  transition: all 0.3s;
+}
+
+.pop-up {
+  top: 0;
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+  font-family: Sintony;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.1);
+  cursor: context-menu;
+  visibility: hidden;
+}
+
+.tick-icon {
+  width: 80px;
+}
+
+.ok-btn {
+  background-color: #2ecc71;
+  width: 70%;
+  box-shadow: 0px 6px 7px -7px #000000;
+  border: none;
+  cursor: pointer;
+}
+
+.pop-up-show {
+  visibility: visible;
+  transform: translate(-50%, 85%) scale(1);
+  transition: all 1s;
+}
