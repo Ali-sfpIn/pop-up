@@ -49,6 +49,11 @@ body {
   cursor: pointer;
 }
 
+.ok-btn:hover {
+  background-color: #2ecc70c8;
+  transition: all 0.3s;
+}
+
 .pop-up-show {
   visibility: visible;
   transform: translate(-50%, 85%) scale(1);
